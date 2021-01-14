@@ -13,7 +13,6 @@ end
 def pop_with_args(small_dogs)
   small_dogs.pop[2] 
 end 
-small_dogs("Chihuahua", "Shiba Inu")
 
 def using_shift(array)
   array.shift 
@@ -22,4 +21,3 @@ end
 def shift_with_args(small_dogs)
   small_dogs.shift[2]
 end 
-small_dogs("Chihuahua", "Shiba Inu")
