@@ -10,14 +10,16 @@ def using_pop(array)
 array.pop
 end 
 
-def pop_with_args(array)
-  array.pop[2] 
+def pop_with_args(small_dogs)
+  small_dogs.pop 
 end 
+small_dogs("Chihuahua", "Shiba Inu")
 
 def using_shift(array)
   array.shift 
 end 
 
-def shift_with_args
-  array.shift[2]
+def shift_with_args(small_dogs)
+  small_dogs.shift
 end 
+small_dogs("Chihuahua", "Shiba Inu")
